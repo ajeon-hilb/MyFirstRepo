@@ -3,3 +3,10 @@ This is some text
 This is some text
 Adding this change on the main branch
 Adding this change on the conflict branchFixing an issue on the main branch
+
+for ($i=1;$i-lt 10;$i++)
+{
+    "Writing out line $i" | Out-File -Encoding Ascii file1.txt -Append
+    git add .
+    git commit -m "Commit $i"
+}Writing out line 1
