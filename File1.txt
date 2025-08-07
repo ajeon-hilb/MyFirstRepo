@@ -10,3 +10,4 @@ for ($i=1;$i-lt 10;$i++)
     git add .
     git commit -m "Commit $i"
 }Writing out line 1
+Writing out line 2
